@@ -1,14 +1,12 @@
-> Tested with Python version 2.7.14, TF version 1.4.1
-
-> If you choose to clone this repo make sure to run following command so that only the code related changes are commited for src/\*.ipynb files. This will ensure non-code related elements like plots and images in **cell outputs** are ignored. `git config --local include.path ../.gitconfig`.
-
-
-
-
 
 
 # Differentiable Boundary Trees
-Reproducing results in “Differentiable Boundary Trees” (DBT) paper.
+> Reproducing results in “Differentiable Boundary Trees” (DBT) paper.
+
+> Tested with Python 2.7.14, TF 1.4.1 . To run, execute notebook `src/supervised_bset.ipynb`. To see results open `results/supervised_bset.ipynb`.
+
+> If you choose to clone this repo make sure to run following command so that only the code related changes are commited for src/\*.ipynb files. This will ensure non-code related elements like plots and images in **cell outputs** are ignored. `git config --local include.path ../.gitconfig`.
+
 
 ## Background
 
@@ -30,6 +28,24 @@ Reproducing results in “Differentiable Boundary Trees” (DBT) paper.
 *	Half-moons dataset was tested on both classifiers with dropout ON and OFF.
 
 *	Results of all simulations are included in the attached notebook.html document. Each simulation contains a piece of code describing model parameters such as learning rate, layers of neural net etc. Unless otherwise mentioned in the header, all simulations use Adam optimizer with dropout OFF.
+
+## Some interesting results
+1. Learned transformation with half moons dataset.
+![half_moons](results/half_moons.png)
+
+2. DBT with MNIST: t-SNE visualization of learned 20-dim representation of 6000 datapoints.
+![bset_tsne_6k](results/bset_tsne_6k.png)
+
+3. NN with MNIST:. t-SNE visualization of learned 20-dim representation of 6000 datapoints.
+![nn_tsne_6k](results/nn_tsne_6k.png)
+
+4. DBT with MNIST: t-SNE visualization of learned 20-dim representation of 20,000 datapoints.
+![bset_tsne_20k](results/bset_tsne_20k.png)
+
+5. DBT with MNIST: Learned 2-dim representation of 60,000 datapoints.
+![bset_2d_transformed_code](results/bset_2d_transformed_code.png)
+
+
 
 ## Implementation details
 *	Neural nets used for both classifiers are fully connected nets with ReLU activation function.
