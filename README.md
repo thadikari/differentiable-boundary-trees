@@ -3,7 +3,7 @@
 # Differentiable Boundary Trees
 > Reproducing results in “Differentiable Boundary Trees” (DBT) paper.
 
-> Tested with Python 2.7.14, TF 1.4.1 . To run, execute notebook `src/supervised_bset.ipynb`. To see results open `results/supervised_bset.ipynb`.
+> Tested with Python 2.7.14, TF 1.4.1 . To run, execute notebook `src/supervised_bset.ipynb`. See saved results at [results/supervised_bset.ipynb](results/supervised_bset.ipynb).
 
 > If you choose to clone this repo make sure to run following command so that only the code related changes are commited for src/\*.ipynb files. This will ensure non-code related elements like plots and images in **cell outputs** are ignored. `git config --local include.path ../.gitconfig`.
 
