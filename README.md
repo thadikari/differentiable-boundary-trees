@@ -30,16 +30,16 @@
 *	Results of all simulations are included in the attached notebook.html document. Each simulation contains a piece of code describing model parameters such as learning rate, layers of neural net etc. Unless otherwise mentioned in the header, all simulations use Adam optimizer with dropout OFF.
 
 ## Some interesting results
-1. Learned transformation with half moons dataset.
+1. DBT with half moons: Learned 2-dim representation.
 ![half_moons](results/half_moons.png)
 
-2. DBT with MNIST: t-SNE visualization of learned 20-dim representation of 6000 datapoints.
+2. DBT with MNIST: t-SNE visualization of learned 20-dim representation of 6,000 training points.
 ![bset_tsne_6k](results/bset_tsne_6k.png)
 
-3. NN with MNIST:. t-SNE visualization of learned 20-dim representation of 6000 datapoints.
+3. NN with MNIST: t-SNE visualization of learned 20-dim representation of 6,000 training points.
 ![nn_tsne_6k](results/nn_tsne_6k.png)
 
-4. DBT with MNIST: t-SNE visualization of learned 20-dim representation of 20,000 datapoints.
+4. DBT with MNIST: t-SNE visualization of learned 20-dim representation of 20,000 training points.
 ![bset_tsne_20k](results/bset_tsne_20k.png)
 
 5. DBT with MNIST: Learned 2-dim representation of 60,000 datapoints.
