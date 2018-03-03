@@ -1,6 +1,0 @@
-[core]
-        attributesfile = ./tools/.gitattributes
-[filter "dropoutput_ipynb"]
-        clean = ./tools/ipynb_output_filter.py
-        smudge = cat
-
