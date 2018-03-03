@@ -1,3 +1,12 @@
+> Tested with Python version 2.7.14, TF version 1.4.1
+
+> If you choose to clone this repo make sure to run following command so that only the code related changes are commited for src/\*.ipynb files. This will ensure non-code related elements like plots and images in **cell outputs** are ignored. `git config --local include.path ../.gitconfig`.
+
+
+
+
+
+
 # Differentiable Boundary Trees
 Reproducing results in “Differentiable Boundary Trees” (DBT) paper.
 
